@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #1E3A5F;
+  background-color: #1e5f38;
   margin: 0;
   padding: 0;
 }
@@ -103,10 +103,6 @@ body {
 .forecast {
   display: inline;
   margin-right: 5%;
-}
-
-#DayAfter1 {
-  background-image: "Cloudy.png";
 }
 
 .MAX {
