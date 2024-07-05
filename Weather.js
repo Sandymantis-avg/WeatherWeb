@@ -192,6 +192,8 @@ async function postHistory(l, c, f, w) {
     })
 };
 
+//document.getElementById("hi").addEventListener("click", alert("v1.2"));
+
 
 
 //postWeather();
