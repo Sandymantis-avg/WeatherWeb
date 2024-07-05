@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Weather App</h1>
+            <input type="text" id="location-input" placeholder="Enter location">
+            <button id="search-button">Search</button>
+        </header>
+
+        <section class="current-weather">
+            <h2>Current Weather</h2>
+            <div class="weather-info">
+                <p class="location">Location: <span id="current-location"></span></p>
+                <p class="temperature">Temperature: <span id="current-temp"></span></p>
+                <p class="condition">Feels-Like: <span id="current-condition"></span></p>
+                <p class="humidity">Humidity: <span id="current-humidity"></span>%</p>
+                <p class="wind">Wind Speed: <span id="current-wind"></span> km/h</p>
+            </div>
+            <button id="temp-unit">Fahrenheit</button>
+        </section>
+
+        <section class="forecast">
+            <div class="Days">
+                <h2 id="DayAfter1"></h2>
+                <h1 id="Temp-1-MAX" class="MAX"></h1>
+                <h1> | </h1>
+                <h1 id="Temp-1-MIN" class="MIN"></h1>
+            </div>
+            <div class="Days">
+                <h2 id="DayAfter2"></h2>
+                <h1 id="Temp-2-MAX" class="MAX"></h1>
+                <h1> | </h1>
+                <h1 id="Temp-2-MIN" class="MIN"></h1>
+            </div>
+            <div class="Days">
+                <h2 id="DayAfter3"></h2>
+                <h1 id="Temp-3-MAX" class="MAX"></h1>
+                <h1> | </h1>
+                <h1 id="Temp-3-MIN" class="MIN"></h1>
+            </div>
+        </section>
+    </div>
+
+
+    <p id="JSON-String"> Hello world </p>
+
+    <script src="Weather.js"></script>
+</body>
+</html>
